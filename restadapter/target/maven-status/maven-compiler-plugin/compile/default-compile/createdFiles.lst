@@ -1,0 +1,6 @@
+com\adapter\restadapter\RestadapterApplication.class
+com\adapter\restadapter\controller\RestController.class
+com\adapter\restadapter\service\IntermediateService.class
+com\adapter\restadapter\model\DataObject.class
+com\adapter\restadapter\service\DataTransformer.class
+com\adapter\restadapter\service\KafkaProducer.class

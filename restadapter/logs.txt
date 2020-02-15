@@ -2,3 +2,583 @@
 2020-02-15 01:33:09.821  INFO 5016 --- [http-nio-8089-exec-7] c.a.restadapter.service.KafkaProducer    : >>Data to kafka topic {"hora_OPERACION":"formanybravekingstheirdeed","fec_CUMPLIMIENTO":"Ithasasa","ptos_TASA_REFERENCIA":"tractiveoasesand","tipo_OPERACION_CONTINUA":"c","mnemo_SERIALIZADO":"Rajasthanisa","rueda_NEGOCIACION":"ethi","dias_VENCIMIENTO":"ngsof","tasa_REFERENCIA":"gela","tipo_OPERACION":"a","fec_VENCIMIENTO":"alltheki","dias_CUMPLIMIENTO":"ndytr","tipo_OPERACION_SERIALIZADA":"c","cod_CUMPLIMIENTO":"tyo","pla_LIQUIDACION":"a","tipo_SIMULTANEA":"n","brokerefcompra":"sohastou","codigo":"ast","trader":"isfamous","tipo_TRAMA":"Ra","estado":"t","cod_CORR":"tan","afiliado":"han","punta":"r","mercado":"d","mnemotecnico":"architecture","precio":"nucleartestwashe","cod_ISIN":"ullofdesertm","cantidad":"ackthatswhythe","fungible":"ountainran","monto":"ldhereRajasthanisf","hora_TRAMA":"itselfhasaglorioushistoryI","moneda":"kes","val_MONEDA":"denseforestat","periodicidad":"e","digito":"j","folio":"sandtheira","base_CALCULO":"t","fija_PRECIO":"s","exdividendo":"t","tasa_REPO":"visitUdaipurJodh","val_CAPTACION":"yaPradeshMadhya","tasa_TTV":"thanaforeignItal","duracion":"mpleset","contraparte":"ntr","tasa":"knownasLandOfSac","tipo_TITULO":"nRa","transaccion":"c","seqtype":"yandsm","venta_CORTO":"r","brokerefventa":"n","seqnumber":"allerthanOma","pre_ACORDADO":"a","pre_LIMPIO":"youcans","pla_EMISION":"ledov","tasa_EMISION":"erthereandfortha","fec_REPO":"isalmerC","mon_REPO":"hittaurgarhetcMadh","tipo_MERCADO":"Pr","modalidad":"j","radicado":"adeshisbigge","pla_REPO":"purJa","crea_MERCADO":"ifi","orig_PUNTA":"u","fec_MONEDA":"eeherita","fec_EMISION":"ngswhoru","esta_DEPOSITO":"h","reinversion":"eI","horaope":"nItal","pti":"y","prom_LIQUIDEZ":"n","pet":"cou","est_TITULO":"g","ubi_TITULO":"lso","lote":"r"}
 2020-02-15 01:33:09.822  INFO 5016 --- [http-nio-8089-exec-7] c.a.restadapter.service.KafkaProducer    : <<Data sended to kafka topic 
 2020-02-15 01:33:09.822  INFO 5016 --- [http-nio-8089-exec-7] c.a.r.controller.RestController          : <<RestController success
+2020-02-15 11:49:00.532  INFO 22197 --- [main] c.a.restadapter.RestadapterApplication   : Starting RestadapterApplication on proto-Inspiron-N4050 with PID 22197 (started by proto in /media/proto/MISC/Codes/Kafka Adapters/restadapter)
+2020-02-15 11:49:00.600  INFO 22197 --- [main] c.a.restadapter.RestadapterApplication   : No active profile set, falling back to default profiles: default
+2020-02-15 11:49:04.437  INFO 22197 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2020-02-15 11:49:04.532  INFO 22197 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-15 11:49:04.534  INFO 22197 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-15 11:49:04.825  INFO 22197 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-15 11:49:04.826  INFO 22197 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3779 ms
+2020-02-15 11:49:05.307  INFO 22197 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-15 11:49:05.781  INFO 22197 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2020-02-15 11:49:05.788  INFO 22197 --- [main] c.a.restadapter.RestadapterApplication   : Started RestadapterApplication in 7.354 seconds (JVM running for 10.322)
+2020-02-15 11:49:41.413  INFO 22197 --- [http-nio-8089-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-15 11:49:41.414  INFO 22197 --- [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-15 11:49:41.429  INFO 22197 --- [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-02-15 11:49:41.521  INFO 22197 --- [http-nio-8089-exec-2] c.a.r.controller.RestController          : >>RestController 0610190072020-02-14:10:00:35.354022N00007B252020-02-14:10:00:31.0000590000000059C007STFIC0928042120200214000000000700000000000000000099.0200000007000000000.00COL17CT031850000000000FS  COP00000001.0000+0000000000.0000NP00.0000NTES-CUP     DCV+0000000000.0000S000 NO   O      099.02020200214QASPT00438202104282012042803287+0000000000.0000   E C +0000000000.00000000000000000000000000000000.00000000000000.00DE             +0000000000.0000    00100100300000000005310:00
+2020-02-15 11:49:41.523  INFO 22197 --- [http-nio-8089-exec-2] c.a.r.controller.RestController          : <<RestController success
+2020-02-15 11:50:13.064  INFO 22197 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-15 12:07:18.955  INFO 22822 --- [main] c.a.restadapter.RestadapterApplication   : Starting RestadapterApplication on proto-Inspiron-N4050 with PID 22822 (started by proto in /media/proto/MISC/Codes/Kafka Adapters/restadapter)
+2020-02-15 12:07:18.967  INFO 22822 --- [main] c.a.restadapter.RestadapterApplication   : No active profile set, falling back to default profiles: default
+2020-02-15 12:07:23.205  INFO 22822 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2020-02-15 12:07:23.297  INFO 22822 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-15 12:07:23.298  INFO 22822 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-15 12:07:23.750  INFO 22822 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-15 12:07:23.757  INFO 22822 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4406 ms
+2020-02-15 12:07:24.681  INFO 22822 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-15 12:07:25.563  INFO 22822 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2020-02-15 12:07:25.577  INFO 22822 --- [main] c.a.restadapter.RestadapterApplication   : Started RestadapterApplication in 9.094 seconds (JVM running for 11.903)
+2020-02-15 12:07:57.247  INFO 22822 --- [http-nio-8089-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-15 12:07:57.272  INFO 22822 --- [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-15 12:07:57.315  INFO 22822 --- [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 41 ms
+2020-02-15 12:07:57.499  INFO 22822 --- [http-nio-8089-exec-2] c.a.r.controller.RestController          : >>RestController 0610190072020-02-14:10:00:35.354022N00007B252020-02-14:10:00:31.0000590000000059C007STFIC0928042120200214000000000700000000000000000099.0200000007000000000.00COL17CT031850000000000FS  COP00000001.0000+0000000000.0000NP00.0000NTES-CUP     DCV+0000000000.0000S000 NO   O      099.02020200214QASPT00438202104282012042803287+0000000000.0000   E C +0000000000.00000000000000000000000000000000.00000000000000.00DE             +0000000000.0000    00100100300000000005310:00
+2020-02-15 12:08:13.487 ERROR 22822 --- [http-nio-8089-exec-2] c.a.r.controller.RestController          : com.adapter.restadapter.controller.RestController
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: 474
+	at java.lang.String.substring(String.java:1963) ~[na:1.8.0_222]
+	at com.adapter.restadapter.service.DataTransformer.stringToObjectConverter(DataTransformer.java:84) ~[classes/:na]
+	at com.adapter.restadapter.service.IntermediateService.DataHandler(IntermediateService.java:17) ~[classes/:na]
+	at com.adapter.restadapter.controller.RestController.postData(RestController.java:27) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_222]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_222]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_222]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_222]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_222]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.30.jar:9.0.30]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_222]
+
+2020-02-15 12:12:12.959  INFO 23080 --- [main] c.a.restadapter.RestadapterApplication   : Starting RestadapterApplication on proto-Inspiron-N4050 with PID 23080 (started by proto in /media/proto/MISC/Codes/Kafka Adapters/restadapter)
+2020-02-15 12:12:12.975  INFO 23080 --- [main] c.a.restadapter.RestadapterApplication   : No active profile set, falling back to default profiles: default
+2020-02-15 12:12:16.160  INFO 23080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2020-02-15 12:12:16.200  INFO 23080 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-15 12:12:16.201  INFO 23080 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-15 12:12:16.406  INFO 23080 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-15 12:12:16.407  INFO 23080 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3272 ms
+2020-02-15 12:12:17.330  INFO 23080 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-15 12:12:18.656  INFO 23080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2020-02-15 12:12:18.681  INFO 23080 --- [main] c.a.restadapter.RestadapterApplication   : Started RestadapterApplication in 7.234 seconds (JVM running for 8.8)
+2020-02-15 12:12:25.644  INFO 23080 --- [http-nio-8089-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-15 12:12:25.650  INFO 23080 --- [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-15 12:12:25.680  INFO 23080 --- [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 28 ms
+2020-02-15 12:12:25.963  INFO 23080 --- [http-nio-8089-exec-3] c.a.r.controller.RestController          : >>RestController 0610190072020-02-14:10:00:35.354022N00007B252020-02-14:10:00:31.0000590000000059C007STFIC0928042120200214000000000700000000000000000099.0200000007000000000.00COL17CT031850000000000FS  COP00000001.0000+0000000000.0000NP00.0000NTES-CUP     DCV+0000000000.0000S000 NO   O      099.02020200214QASPT00438202104282012042803287+0000000000.0000   E C +0000000000.00000000000000000000000000000000.00000000000000.00DE             +0000000000.0000    00100100300000000005310:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ]
+2020-02-15 12:13:00.569  INFO 23080 --- [http-nio-8089-exec-3] c.a.r.controller.RestController          : <<RestController success
+2020-02-15 12:18:15.072  INFO 23998 --- [main] c.a.restadapter.RestadapterApplication   : Starting RestadapterApplication on proto-Inspiron-N4050 with PID 23998 (started by proto in /media/proto/MISC/Codes/Kafka Adapters/restadapter)
+2020-02-15 12:18:15.128  INFO 23998 --- [main] c.a.restadapter.RestadapterApplication   : No active profile set, falling back to default profiles: default
+2020-02-15 12:18:17.059  INFO 23998 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$9521b94] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-15 12:18:17.805  INFO 23998 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2020-02-15 12:18:17.827  INFO 23998 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-15 12:18:17.828  INFO 23998 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-15 12:18:17.975  INFO 23998 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-15 12:18:17.976  INFO 23998 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2728 ms
+2020-02-15 12:18:18.469  INFO 23998 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-15 12:18:18.835  WARN 23998 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory]: Factory method 'kafkaListenerContainerFactory' threw exception; nested exception is java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+2020-02-15 12:18:18.837  INFO 23998 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-15 12:18:18.845  INFO 23998 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-02-15 12:18:18.872  INFO 23998 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-15 12:18:18.884 ERROR 23998 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory]: Factory method 'kafkaListenerContainerFactory' threw exception; nested exception is java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at com.adapter.restadapter.RestadapterApplication.main(RestadapterApplication.java:10) [classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory]: Factory method 'kafkaListenerContainerFactory' threw exception; nested exception is java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	... 19 common frames omitted
+Caused by: java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+	at org.springframework.boot.autoconfigure.kafka.ConcurrentKafkaListenerContainerFactoryConfigurer.configureContainer(ConcurrentKafkaListenerContainerFactoryConfigurer.java:170) ~[spring-boot-autoconfigure-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.autoconfigure.kafka.ConcurrentKafkaListenerContainerFactoryConfigurer.configure(ConcurrentKafkaListenerContainerFactoryConfigurer.java:146) ~[spring-boot-autoconfigure-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.autoconfigure.kafka.KafkaAnnotationDrivenConfiguration.kafkaListenerContainerFactory(KafkaAnnotationDrivenConfiguration.java:117) ~[spring-boot-autoconfigure-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_222]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_222]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_222]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_222]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+	... 28 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.kafka.listener.ConsumerProperties
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[na:1.8.0_222]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_222]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[na:1.8.0_222]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_222]
+	... 28 common frames omitted
+
+2020-02-15 12:19:27.764  INFO 24045 --- [main] c.a.restadapter.RestadapterApplication   : Starting RestadapterApplication on proto-Inspiron-N4050 with PID 24045 (started by proto in /media/proto/MISC/Codes/Kafka Adapters/restadapter)
+2020-02-15 12:19:27.777  INFO 24045 --- [main] c.a.restadapter.RestadapterApplication   : No active profile set, falling back to default profiles: default
+2020-02-15 12:19:29.540  INFO 24045 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$9a9aaf3f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-15 12:19:30.094  INFO 24045 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2020-02-15 12:19:30.112  INFO 24045 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-15 12:19:30.113  INFO 24045 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-15 12:19:30.233  INFO 24045 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-15 12:19:30.234  INFO 24045 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2333 ms
+2020-02-15 12:19:30.779  INFO 24045 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-15 12:19:31.187  WARN 24045 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory]: Factory method 'kafkaListenerContainerFactory' threw exception; nested exception is java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+2020-02-15 12:19:31.189  INFO 24045 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-15 12:19:31.198  INFO 24045 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-02-15 12:19:31.225  INFO 24045 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-15 12:19:31.237 ERROR 24045 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory]: Factory method 'kafkaListenerContainerFactory' threw exception; nested exception is java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at com.adapter.restadapter.RestadapterApplication.main(RestadapterApplication.java:10) [classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory]: Factory method 'kafkaListenerContainerFactory' threw exception; nested exception is java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	... 19 common frames omitted
+Caused by: java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+	at org.springframework.boot.autoconfigure.kafka.ConcurrentKafkaListenerContainerFactoryConfigurer.configureContainer(ConcurrentKafkaListenerContainerFactoryConfigurer.java:170) ~[spring-boot-autoconfigure-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.autoconfigure.kafka.ConcurrentKafkaListenerContainerFactoryConfigurer.configure(ConcurrentKafkaListenerContainerFactoryConfigurer.java:146) ~[spring-boot-autoconfigure-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.autoconfigure.kafka.KafkaAnnotationDrivenConfiguration.kafkaListenerContainerFactory(KafkaAnnotationDrivenConfiguration.java:117) ~[spring-boot-autoconfigure-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_222]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_222]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_222]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_222]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+	... 28 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.kafka.listener.ConsumerProperties
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[na:1.8.0_222]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_222]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[na:1.8.0_222]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_222]
+	... 28 common frames omitted
+
+2020-02-15 12:20:18.117  INFO 24177 --- [main] c.a.restadapter.RestadapterApplication   : Starting RestadapterApplication on proto-Inspiron-N4050 with PID 24177 (started by proto in /media/proto/MISC/Codes/Kafka Adapters/restadapter)
+2020-02-15 12:20:18.125  INFO 24177 --- [main] c.a.restadapter.RestadapterApplication   : No active profile set, falling back to default profiles: default
+2020-02-15 12:20:20.555  INFO 24177 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$10ddcb6c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-15 12:20:21.200  INFO 24177 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2020-02-15 12:20:21.230  INFO 24177 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-15 12:20:21.231  INFO 24177 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-15 12:20:21.395  INFO 24177 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-15 12:20:21.396  INFO 24177 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3122 ms
+2020-02-15 12:20:21.994  INFO 24177 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-15 12:20:22.503  WARN 24177 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory]: Factory method 'kafkaListenerContainerFactory' threw exception; nested exception is java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+2020-02-15 12:20:22.505  INFO 24177 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-15 12:20:22.517  INFO 24177 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-02-15 12:20:22.555  INFO 24177 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-15 12:20:22.571 ERROR 24177 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory]: Factory method 'kafkaListenerContainerFactory' threw exception; nested exception is java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at com.adapter.restadapter.RestadapterApplication.main(RestadapterApplication.java:10) [classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory]: Factory method 'kafkaListenerContainerFactory' threw exception; nested exception is java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	... 19 common frames omitted
+Caused by: java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+	at org.springframework.boot.autoconfigure.kafka.ConcurrentKafkaListenerContainerFactoryConfigurer.configureContainer(ConcurrentKafkaListenerContainerFactoryConfigurer.java:170) ~[spring-boot-autoconfigure-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.autoconfigure.kafka.ConcurrentKafkaListenerContainerFactoryConfigurer.configure(ConcurrentKafkaListenerContainerFactoryConfigurer.java:146) ~[spring-boot-autoconfigure-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.autoconfigure.kafka.KafkaAnnotationDrivenConfiguration.kafkaListenerContainerFactory(KafkaAnnotationDrivenConfiguration.java:117) ~[spring-boot-autoconfigure-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_222]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_222]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_222]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_222]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+	... 28 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.kafka.listener.ConsumerProperties
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[na:1.8.0_222]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_222]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[na:1.8.0_222]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_222]
+	... 28 common frames omitted
+
+2020-02-15 12:28:02.312  INFO 24322 --- [main] c.a.restadapter.RestadapterApplication   : Starting RestadapterApplication on proto-Inspiron-N4050 with PID 24322 (started by proto in /media/proto/MISC/Codes/Kafka Adapters/restadapter)
+2020-02-15 12:28:02.326  INFO 24322 --- [main] c.a.restadapter.RestadapterApplication   : No active profile set, falling back to default profiles: default
+2020-02-15 12:28:04.329  INFO 24322 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$120f17d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-15 12:28:05.211  INFO 24322 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2020-02-15 12:28:05.237  INFO 24322 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-15 12:28:05.238  INFO 24322 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-15 12:28:05.379  INFO 24322 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-15 12:28:05.380  INFO 24322 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2928 ms
+2020-02-15 12:28:05.930  INFO 24322 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-15 12:28:06.296  WARN 24322 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory]: Factory method 'kafkaListenerContainerFactory' threw exception; nested exception is java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+2020-02-15 12:28:06.297  INFO 24322 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-15 12:28:06.306  INFO 24322 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-02-15 12:28:06.332  INFO 24322 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-15 12:28:06.344 ERROR 24322 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory]: Factory method 'kafkaListenerContainerFactory' threw exception; nested exception is java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at com.adapter.restadapter.RestadapterApplication.main(RestadapterApplication.java:10) [classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory]: Factory method 'kafkaListenerContainerFactory' threw exception; nested exception is java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	... 19 common frames omitted
+Caused by: java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+	at org.springframework.boot.autoconfigure.kafka.ConcurrentKafkaListenerContainerFactoryConfigurer.configureContainer(ConcurrentKafkaListenerContainerFactoryConfigurer.java:170) ~[spring-boot-autoconfigure-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.autoconfigure.kafka.ConcurrentKafkaListenerContainerFactoryConfigurer.configure(ConcurrentKafkaListenerContainerFactoryConfigurer.java:146) ~[spring-boot-autoconfigure-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.autoconfigure.kafka.KafkaAnnotationDrivenConfiguration.kafkaListenerContainerFactory(KafkaAnnotationDrivenConfiguration.java:117) ~[spring-boot-autoconfigure-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_222]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_222]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_222]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_222]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+	... 28 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.kafka.listener.ConsumerProperties
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[na:1.8.0_222]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_222]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[na:1.8.0_222]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_222]
+	... 28 common frames omitted
+
+2020-02-15 12:58:30.867  INFO 24735 --- [main] c.a.restadapter.RestadapterApplication   : Starting RestadapterApplication on proto-Inspiron-N4050 with PID 24735 (started by proto in /media/proto/MISC/Codes/Kafka Adapters/restadapter)
+2020-02-15 12:58:30.885  INFO 24735 --- [main] c.a.restadapter.RestadapterApplication   : No active profile set, falling back to default profiles: default
+2020-02-15 12:58:32.654  INFO 24735 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$2a57581b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-15 12:58:33.358  INFO 24735 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2020-02-15 12:58:33.385  INFO 24735 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-15 12:58:33.386  INFO 24735 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-15 12:58:33.527  INFO 24735 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-15 12:58:33.528  INFO 24735 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2527 ms
+2020-02-15 12:58:34.023  INFO 24735 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-15 12:58:34.411  WARN 24735 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory]: Factory method 'kafkaListenerContainerFactory' threw exception; nested exception is java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+2020-02-15 12:58:34.413  INFO 24735 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-15 12:58:34.423  INFO 24735 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-02-15 12:58:34.448  INFO 24735 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-15 12:58:34.458 ERROR 24735 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kafkaListenerContainerFactory' defined in class path resource [org/springframework/boot/autoconfigure/kafka/KafkaAnnotationDrivenConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory]: Factory method 'kafkaListenerContainerFactory' threw exception; nested exception is java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at com.adapter.restadapter.RestadapterApplication.main(RestadapterApplication.java:10) [classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory]: Factory method 'kafkaListenerContainerFactory' threw exception; nested exception is java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	... 19 common frames omitted
+Caused by: java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+	at org.springframework.boot.autoconfigure.kafka.ConcurrentKafkaListenerContainerFactoryConfigurer.configureContainer(ConcurrentKafkaListenerContainerFactoryConfigurer.java:170) ~[spring-boot-autoconfigure-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.autoconfigure.kafka.ConcurrentKafkaListenerContainerFactoryConfigurer.configure(ConcurrentKafkaListenerContainerFactoryConfigurer.java:146) ~[spring-boot-autoconfigure-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.autoconfigure.kafka.KafkaAnnotationDrivenConfiguration.kafkaListenerContainerFactory(KafkaAnnotationDrivenConfiguration.java:117) ~[spring-boot-autoconfigure-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_222]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_222]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_222]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_222]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/kafka/listener/ConsumerProperties
+	... 28 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.kafka.listener.ConsumerProperties
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[na:1.8.0_222]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_222]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349) ~[na:1.8.0_222]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_222]
+	... 28 common frames omitted
+
+2020-02-15 12:59:25.652  INFO 24852 --- [main] c.a.restadapter.RestadapterApplication   : Starting RestadapterApplication on proto-Inspiron-N4050 with PID 24852 (started by proto in /media/proto/MISC/Codes/Kafka Adapters/restadapter)
+2020-02-15 12:59:25.664  INFO 24852 --- [main] c.a.restadapter.RestadapterApplication   : No active profile set, falling back to default profiles: default
+2020-02-15 12:59:29.264  INFO 24852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2020-02-15 12:59:29.283  INFO 24852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-15 12:59:29.284  INFO 24852 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-15 12:59:29.447  INFO 24852 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-15 12:59:29.448  INFO 24852 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3605 ms
+2020-02-15 12:59:30.185  INFO 24852 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-15 12:59:30.785  INFO 24852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2020-02-15 12:59:30.793  INFO 24852 --- [main] c.a.restadapter.RestadapterApplication   : Started RestadapterApplication in 7.437 seconds (JVM running for 8.187)
+2020-02-15 12:59:50.253  INFO 24852 --- [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-15 12:59:50.253  INFO 24852 --- [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-15 12:59:50.294  INFO 24852 --- [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 40 ms
+2020-02-15 12:59:50.569  INFO 24852 --- [http-nio-8089-exec-1] c.a.r.controller.RestController          : >>Request received, Data:  0610190072020-02-14:10:00:35.354022N00007B252020-02-14:10:00:31.0000590000000059C007STFIC0928042120200214000000000700000000000000000099.0200000007000000000.00COL17CT031850000000000FS  COP00000001.0000+0000000000.0000NP00.0000NTES-CUP     DCV+0000000000.0000S000 NO   O      099.02020200214QASPT00438202104282012042803287+0000000000.0000   E C +0000000000.00000000000000000000000000000000.00000000000000.00DE             +0000000000.0000    00100100300000000005310:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ]
+2020-02-15 12:59:50.764  INFO 24852 --- [http-nio-8089-exec-1] c.a.restadapter.service.KafkaProducer    : >>Data to kafka topic {"ptos_TASA_REFERENCIA":"+0000000000.0000","base_CALCULO":"N","periodicidad":"P","duracion":"00.0000","tipo_OPERACION_CONTINUA":"N","mnemo_SERIALIZADO":"TES-CUP     ","ubi_TITULO":"DCV","tasa":"+0000000000.0000","lote":"S","crea_MERCADO":"000","tipo_OPERACION_SERIALIZADA":" ","reinversion":"NO","tipo_TITULO":"   ","modalidad":"O","tipo_OPERACION":" ","fija_PRECIO":" ","exdividendo":" ","esta_DEPOSITO":" ","pre_ACORDADO":" ","prom_LIQUIDEZ":" ","pre_LIMPIO":"099.020","fec_MONEDA":"20200214","est_TITULO":"Q","rueda_NEGOCIACION":"ASPT","dias_VENCIMIENTO":"00438","fec_VENCIMIENTO":"20210428","fec_EMISION":"20120428","pla_EMISION":"03287","tasa_EMISION":"+0000000000.0000","cod_CUMPLIMIENTO":"   ","orig_PUNTA":"E","transaccion":" ","pla_LIQUIDACION":"C","tipo_SIMULTANEA":" ","tasa_REPO":"+0000000000.0000","pla_REPO":"00000","fec_REPO":"00000000","mon_REPO":"000000000000000.00","val_CAPTACION":"000000000000.00","tipo_MERCADO":"DE","radicado":"            ","venta_CORTO":" ","tasa_TTV":"+0000000000.0000","pti":" ","pet":"   ","contraparte":"001","seqtype":"001003","seqnumber":"000000000053","horaope":"10:00","brokerefcompra":"        ","brokerefventa":" ","tipo_TRAMA":"06","codigo":"019","digito":"1","afiliado":"007","hora_TRAMA":"2020-02-14:10:00:35.354022","estado":"N","trader":"00007B25","hora_OPERACION":"2020-02-14:10:00:31.000059","folio":"0000000059","punta":"C","cod_CORR":"007","mercado":"S","mnemotecnico":"TFIC09280421","fec_CUMPLIMIENTO":"20200214","dias_CUMPLIMIENTO":"00000","cantidad":"00007000000000","precio":"00000000099.0200","monto":"000007000000000.00","cod_ISIN":"COL17CT03185","fungible":"0000000000","tasa_REFERENCIA":"FS  ","moneda":"COP","val_MONEDA":"00000001.0000"}
+2020-02-15 12:59:50.946  INFO 24852 --- [http-nio-8089-exec-1] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = Adapter1-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2020-02-15 12:59:51.156  INFO 24852 --- [http-nio-8089-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.3.1
+2020-02-15 12:59:51.164  INFO 24852 --- [http-nio-8089-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 18a913733fb71c01
+2020-02-15 12:59:51.165  INFO 24852 --- [http-nio-8089-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1581751791153
+2020-02-15 12:59:51.574  INFO 24852 --- [kafka-producer-network-thread | Adapter1-1] org.apache.kafka.clients.Metadata        : [Producer clientId=Adapter1-1] Cluster ID: ea99e0avQ8eI1G1ud70_-w
+2020-02-15 12:59:51.616  INFO 24852 --- [http-nio-8089-exec-1] c.a.restadapter.service.KafkaProducer    : <<Data sent to kafka topic 
+2020-02-15 12:59:51.617  INFO 24852 --- [http-nio-8089-exec-1] c.a.r.controller.RestController          : <<Processing success
+2020-02-15 13:12:06.181  INFO 25247 --- [main] c.a.restadapter.RestadapterApplication   : Starting RestadapterApplication on proto-Inspiron-N4050 with PID 25247 (started by proto in /media/proto/MISC/Codes/Kafka Adapters/restAdapter/restadapter)
+2020-02-15 13:12:06.188  INFO 25247 --- [main] c.a.restadapter.RestadapterApplication   : No active profile set, falling back to default profiles: default
+2020-02-15 13:12:08.664  INFO 25247 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2020-02-15 13:12:08.691  INFO 25247 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-15 13:12:08.692  INFO 25247 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-15 13:12:08.826  INFO 25247 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-15 13:12:08.827  INFO 25247 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2512 ms
+2020-02-15 13:12:09.309  INFO 25247 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-15 13:12:09.803  INFO 25247 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2020-02-15 13:12:09.810  INFO 25247 --- [main] c.a.restadapter.RestadapterApplication   : Started RestadapterApplication in 4.599 seconds (JVM running for 5.455)
+2020-02-15 13:12:25.765  INFO 25247 --- [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-15 13:12:25.766  INFO 25247 --- [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-15 13:12:25.782  INFO 25247 --- [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-02-15 13:12:25.880  INFO 25247 --- [http-nio-8089-exec-1] c.a.r.controller.RestController          : >>Request received, Data:  0610190072020-02-14:10:00:35.354022N00007B252020-02-14:10:00:31.0000590000000059C007STFIC0928042120200214000000000700000000000000000099.0200000007000000000.00COL17CT031850000000000FS  COP00000001.0000+0000000000.0000NP00.0000NTES-CUP     DCV+0000000000.0000S000 NO   O      099.02020200214QASPT00438202104282012042803287+0000000000.0000   E C +0000000000.00000000000000000000000000000000.00000000000000.00DE             +0000000000.0000    00100100300000000005310:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ]
+2020-02-15 13:12:25.974  INFO 25247 --- [http-nio-8089-exec-1] c.a.restadapter.service.KafkaProducer    : >>Data to kafka topic {"tipo_SIMULTANEA":" ","tasa_REPO":"+0000000000.0000","pla_REPO":"00000","fec_REPO":"00000000","mon_REPO":"000000000000000.00","val_CAPTACION":"000000000000.00","tipo_MERCADO":"DE","radicado":"            ","venta_CORTO":" ","tasa_TTV":"+0000000000.0000","pti":" ","pet":"   ","contraparte":"001","seqtype":"001003","seqnumber":"000000000053","horaope":"10:00","brokerefcompra":"        ","brokerefventa":" ","tipo_TRAMA":"06","codigo":"019","digito":"1","afiliado":"007","hora_TRAMA":"2020-02-14:10:00:35.354022","estado":"N","trader":"00007B25","hora_OPERACION":"2020-02-14:10:00:31.000059","folio":"0000000059","punta":"C","cod_CORR":"007","mercado":"S","mnemotecnico":"TFIC09280421","fec_CUMPLIMIENTO":"20200214","dias_CUMPLIMIENTO":"00000","cantidad":"00007000000000","precio":"00000000099.0200","monto":"000007000000000.00","cod_ISIN":"COL17CT03185","fungible":"0000000000","tasa_REFERENCIA":"FS  ","moneda":"COP","val_MONEDA":"00000001.0000","ptos_TASA_REFERENCIA":"+0000000000.0000","base_CALCULO":"N","periodicidad":"P","duracion":"00.0000","tipo_OPERACION_CONTINUA":"N","mnemo_SERIALIZADO":"TES-CUP     ","ubi_TITULO":"DCV","tasa":"+0000000000.0000","lote":"S","crea_MERCADO":"000","tipo_OPERACION_SERIALIZADA":" ","reinversion":"NO","tipo_TITULO":"   ","modalidad":"O","tipo_OPERACION":" ","fija_PRECIO":" ","exdividendo":" ","esta_DEPOSITO":" ","pre_ACORDADO":" ","prom_LIQUIDEZ":" ","pre_LIMPIO":"099.020","fec_MONEDA":"20200214","est_TITULO":"Q","rueda_NEGOCIACION":"ASPT","dias_VENCIMIENTO":"00438","fec_VENCIMIENTO":"20210428","fec_EMISION":"20120428","pla_EMISION":"03287","tasa_EMISION":"+0000000000.0000","cod_CUMPLIMIENTO":"   ","orig_PUNTA":"E","transaccion":" ","pla_LIQUIDACION":"C"}
+2020-02-15 13:12:26.165  INFO 25247 --- [http-nio-8089-exec-1] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = Adapter1-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2020-02-15 13:12:26.345  INFO 25247 --- [http-nio-8089-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.3.1
+2020-02-15 13:12:26.348  INFO 25247 --- [http-nio-8089-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 18a913733fb71c01
+2020-02-15 13:12:26.349  INFO 25247 --- [http-nio-8089-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1581752546340
+2020-02-15 13:12:26.678  INFO 25247 --- [kafka-producer-network-thread | Adapter1-1] org.apache.kafka.clients.Metadata        : [Producer clientId=Adapter1-1] Cluster ID: ea99e0avQ8eI1G1ud70_-w
+2020-02-15 13:12:26.736  INFO 25247 --- [http-nio-8089-exec-1] c.a.restadapter.service.KafkaProducer    : <<Data sent to kafka topic 
+2020-02-15 13:12:26.737  INFO 25247 --- [http-nio-8089-exec-1] c.a.r.controller.RestController          : <<Processing success
+2020-02-15 13:20:30.869  INFO 25247 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-15 13:20:30.871  INFO 25247 --- [SpringContextShutdownHook] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=Adapter1-1] Closing the Kafka producer with timeoutMillis = 30000 ms.

@@ -23,13 +23,12 @@ public class RestController {
 	@PostMapping(path = "/postData")
 	public String postData(@RequestBody String data) {
 		try {
-			lOGGER.info(">>RestController "+data);
+			lOGGER.info(">>Request received, Data:  "+data);
 			intermediateService.DataHandler(data);
-			lOGGER.info("<<RestController success");
+			lOGGER.info("<<Processing success");
 			return "success";
 		} catch (Exception e) {
 			lOGGER.error(this.getClass().getName(),e);
-			e.printStackTrace();
 			return null;
 		}
 		

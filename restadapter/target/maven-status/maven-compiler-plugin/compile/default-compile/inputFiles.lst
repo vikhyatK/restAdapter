@@ -1,7 +1,0 @@
-G:\Spring Boot Adapters\restadapter\src\main\java\com\adapter\restadapter\RestadapterApplication.java
-G:\Spring Boot Adapters\restadapter\src\main\java\com\adapter\restadapter\config\Configuration.java
-G:\Spring Boot Adapters\restadapter\src\main\java\com\adapter\restadapter\service\DataTransformer.java
-G:\Spring Boot Adapters\restadapter\src\main\java\com\adapter\restadapter\service\IntermediateService.java
-G:\Spring Boot Adapters\restadapter\src\main\java\com\adapter\restadapter\model\DataObject.java
-G:\Spring Boot Adapters\restadapter\src\main\java\com\adapter\restadapter\service\KafkaProducer.java
-G:\Spring Boot Adapters\restadapter\src\main\java\com\adapter\restadapter\controller\RestController.java

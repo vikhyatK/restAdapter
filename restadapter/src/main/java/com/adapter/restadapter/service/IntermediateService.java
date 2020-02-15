@@ -16,7 +16,6 @@ public class IntermediateService {
 	public void DataHandler(String data) throws Exception {
 		DataObject dataObject = dataTransformer.stringToObjectConverter(data);
 		producer.produceJsonData(dataObject);
-
 	}
 
 }

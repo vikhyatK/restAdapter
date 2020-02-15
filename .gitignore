@@ -1,1 +1,3 @@
-/target/
+/restadapter/target/
+/restadapter/.settings/
+/restadapter/logs.txt

@@ -8,6 +8,7 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
 import com.adapter.restadapter.model.DataObject;
+import com.adapter.restadapter.model.Payload;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Service
@@ -21,10 +22,10 @@ public class KafkaProducer {
 	@Autowired
 	private KafkaTemplate<String, String> kafkaTemplate;
 
-	public void produceJsonData(DataObject dataObject) throws Exception {
+	public void produceJsonData(Payload payload) throws Exception {
 		ObjectMapper obj = new ObjectMapper();
-		LOG.info(">>Data to kafka topic " + obj.writeValueAsString(dataObject));
-		sendMessage(obj.writeValueAsString(dataObject));
+		LOG.info(">>Data to kafka topic " + obj.writeValueAsString(payload));
+		sendMessage(obj.writeValueAsString(payload));
 		LOG.info("<<Data sent to topic " + topicName);
 	}
 

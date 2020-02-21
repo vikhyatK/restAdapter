@@ -4,18 +4,23 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.adapter.restadapter.model.DataObject;
+import com.adapter.restadapter.model.Payload;
 
 @Service
 public class IntermediateService {
 
 	@Autowired
-	DataTransformer dataTransformer;
+	private DataTransformer dataTransformer;
 	@Autowired
-	KafkaProducer producer;
+	private KafkaProducer producer;
 
+	@Autowired
+	private FinalObjectService finalService;
+	
 	public void DataHandler(String data) throws Exception {
 		DataObject dataObject = dataTransformer.stringToObjectConverter(data);
-		producer.produceJsonData(dataObject);
+		Payload load = finalService.getPayload(dataObject);
+		producer.produceJsonData(load);
 	}
 
 }

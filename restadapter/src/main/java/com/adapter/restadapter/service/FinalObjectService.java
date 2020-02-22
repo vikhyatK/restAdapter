@@ -6,6 +6,7 @@ import java.util.List;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Service;
 
 import com.adapter.restadapter.model.BvcSymboInfo;
@@ -19,6 +20,7 @@ import com.adapter.restadapter.model.Payload;
 import com.adapter.restadapter.model.SecurityList;
 
 @Service
+@RefreshScope
 public class FinalObjectService {
 	private static final Logger LOG = LogManager.getLogger(FinalObjectService.class);
 	

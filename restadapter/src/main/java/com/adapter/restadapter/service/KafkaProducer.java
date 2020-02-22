@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
-import com.adapter.restadapter.model.DataObject;
 import com.adapter.restadapter.model.Payload;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
